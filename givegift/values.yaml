@@ -4,8 +4,8 @@ frontend:
     type: ClusterIP
   image:
     repository: cr.yandex/crplvdacg3tpu0lg6jj7/givegift-frontend
-    tag: latest
-    pullPolicy: Always
+    tag: 27a11acaf8e23f8fc22c2ab55ff341b1f66d4a23
+    pullPolicy: IfNotPresent
   replicaCount:
     min: 1
     max: 5
@@ -17,8 +17,8 @@ backend:
     type: ClusterIP
   image:
     repository: cr.yandex/crplvdacg3tpu0lg6jj7/givegift-backend
-    tag: latest
-    pullPolicy: Always
+    tag: 27a11acaf8e23f8fc22c2ab55ff341b1f66d4a23
+    pullPolicy: IfNotPresent
   replicaCount:
     min: 1
     max: 5
