@@ -28,4 +28,4 @@ db:
   localCertPath: C:/Users/AmEl/.postgresql/root.crt
   secretName: givegift-db-secret
 
-ingressExtIP: 158.160.181.200
+ingressExtIP: 158.160.143.86
