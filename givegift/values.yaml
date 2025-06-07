@@ -4,28 +4,25 @@ frontend:
     type: ClusterIP
   image:
     repository: cr.yandex/crplvdacg3tpu0lg6jj7/givegift-frontend
-    tag: latest
+    tag: b80bb19f819b83376547460d3425ad0abcad0829
     pullPolicy: Always
   replicaCount:
     min: 1
     max: 5
   cpuAverageUtilization: 15
-
 backend:
   service:
     port: 5000
     type: ClusterIP
   image:
     repository: cr.yandex/crplvdacg3tpu0lg6jj7/givegift-backend
-    tag: latest
+    tag: b80bb19f819b83376547460d3425ad0abcad0829
     pullPolicy: Always
   replicaCount:
     min: 1
     max: 5
   cpuAverageUtilization: 15
-
 db:
   localCertPath: C:/Users/AmEl/.postgresql/root.crt
   secretName: givegift-db-secret
-
 ingressExtIP: 158.160.182.170
