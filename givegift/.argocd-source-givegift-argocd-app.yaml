@@ -1,0 +1,8 @@
+helm:
+  parameters:
+  - name: image.name
+    value: cr.yandex/crplvdacg3tpu0lg6jj7/givegift-backend
+    forcestring: true
+  - name: image.tag
+    value: 64ec796d30fd6b4cf429c46c6dbfd5c9b956da27
+    forcestring: true
