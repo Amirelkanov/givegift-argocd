@@ -16,7 +16,7 @@ backend:
     type: ClusterIP
   image:
     repository: cr.yandex/crplvdacg3tpu0lg6jj7/givegift-backend
-    tag: b80bb19f819b83376547460d3425ad0abcad0829
+    tag: 8381d5ff0e37bd58abbaa4c906dfb3b1ba6173fa
     pullPolicy: Always
   replicaCount:
     min: 1
